@@ -67,7 +67,7 @@ pipeline {
                         if (missing) {
                             error("❌ Secrets manquants ou invalides depuis Vault : ${missing.join(', ')}")
                         }
-                        echo '✅ Tous les secrets requis sont présents et validessss'
+                        echo '✅ Tous les secrets requis sont présents et valides'
                     }
                 }
             }
