@@ -21,7 +21,7 @@ RUN echo 'server { \
     \
     add_header X-Content-Type-Options "nosniff" always; \
     add_header X-Frame-Options "DENY" always; \
-    add_header Content-Security-Policy "default-src '\''self'\''; script-src '\''self'\''; style-src '\''self'\''; img-src '\''self'\'' data:; font-src '\''self'\''; connect-src '\''self'\'' http://localhost:5000; frame-ancestors '\''none'\''; form-action '\''self'\''; base-uri '\''self'\'';" always; \
+    add_header Content-Security-Policy "default-src '\''self'\''; script-src '\''self'\''; style-src '\''self'\''; img-src '\''self'\'' data:; font-src '\''self'\''; connect-src '\''self'\''; frame-ancestors '\''none'\''; form-action '\''self'\''; base-uri '\''self'\'';" always; \
     add_header Cross-Origin-Embedder-Policy "require-corp" always; \
     add_header Cross-Origin-Opener-Policy "same-origin" always; \
     add_header Cross-Origin-Resource-Policy "same-origin" always; \
