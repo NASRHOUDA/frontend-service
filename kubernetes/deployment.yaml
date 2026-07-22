@@ -37,7 +37,7 @@ spec:
             app: frontend-microservice
       containers:
       - name: frontend-microservice
-        image: houdanasr/frontend-service:8
+        image: houdanasr/frontend-service:9
         ports:
         - containerPort: 80
         resources:
